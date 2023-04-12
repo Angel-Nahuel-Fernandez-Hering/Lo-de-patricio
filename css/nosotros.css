@@ -1,0 +1,72 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    background: url(../imgpanaderia/fondo.jpg), rgba(0, 0, 0, 42%);
+  
+    background-blend-mode: darken;
+  }
+  
+  header {
+    background-color: bisque;
+    font-family: "Jost", sans-serif;
+    font-family: "Old Standard TT", serif;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .logo > h1 {
+    margin: 0 auto;
+  }
+  
+  .imglogo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    justify-content: start;
+  }
+  
+  .conteiner {
+    background-color: bisque;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 2rem 0 0;
+  }
+  
+  .lista-nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .lista-nav li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+  }
+    
+  .redes {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  i {
+    margin-left: 1rem;
+    margin: 0 2rem 0 0;
+  }
+  
+  footer {
+    background-color: black;
+    border-style: inset;
+    display: flex;
+    justify-content: center;
+    color: ghostwhite;
+    width: 100%;
+  }
